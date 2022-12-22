@@ -12,22 +12,22 @@ namespace LineComparison
         public static void CalculateLine()
         {
             Console.WriteLine("Enter x1 ");
-            int x1=Convert.ToInt32(Console.ReadLine());
+            double x1=Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Enter x2 ");
-            int x2 = Convert.ToInt32(Console.ReadLine());
+            double x2 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Enter y1 ");
-            int y1 = Convert.ToInt32(Console.ReadLine());
+            double y1 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Enter y2 ");
-            int y2 = Convert.ToInt32(Console.ReadLine());
+            double y2 = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Enter x3 ");
-            int x3 = Convert.ToInt32(Console.ReadLine());
+            double x3 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Enter x4 ");
-            int x4 = Convert.ToInt32(Console.ReadLine());
+            double x4 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Enter y3 ");
-            int y3 = Convert.ToInt32(Console.ReadLine());
+            double y3 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Enter y4 ");
-            int y4 = Convert.ToInt32(Console.ReadLine());
+            double y4 = Convert.ToDouble(Console.ReadLine());
 
 
             double lengthOfLine1 = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
